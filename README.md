@@ -39,6 +39,6 @@ module: {
 
 1. Add the line `require('./styles/main.scss')` to your `app.js` file. This will tell React to render all of your CSS in your `index.html` file.
 
-1. Build your React and Sass files and run `public/index.html` in your browser
+1. Build your React and Sass production files and open `public/index.html` in your browser
 
-1. Extend your `p` selector with the different default and crazy font styles
+1. Extend your `p` selector with the different the default and crazy font styles and watch the React components update the styles
