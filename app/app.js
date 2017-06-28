@@ -2,7 +2,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-require('./main.css')
+require('./styles/main.scss')
 
 // Include the Header Component
 var Header = require('./components/Header');
