@@ -1,11 +1,11 @@
-var React = require('react');
+import React from 'react';
 
-var Body = React.createClass({
-  render: function() {
+class Body extends React.Component {
+  render() {
     return (
       <p>I am the body!</p>
     );
   }
-});
+}
 
-module.exports = Body;
+export default Body;
